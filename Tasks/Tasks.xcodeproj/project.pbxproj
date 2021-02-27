@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		540CCAD725EAA69000A663B9 /* FortBoyardSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540CCAD625EAA69000A663B9 /* FortBoyardSolution.swift */; };
+		540CCADB25EAC63100A663B9 /* FortBoyardEmptySolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540CCADA25EAC63100A663B9 /* FortBoyardEmptySolution.swift */; };
 		540D81FE25DE38D9007E254A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540D81FD25DE38D9007E254A /* main.swift */; };
 		540D820725DE3920007E254A /* IAmRichSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540D820625DE3920007E254A /* IAmRichSolution.swift */; };
 		540D820A25DE3957007E254A /* IAmRichEmptySolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540D820925DE3957007E254A /* IAmRichEmptySolution.swift */; };
 		540D821425DE3997007E254A /* IAmRichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540D821325DE3997007E254A /* IAmRichTests.swift */; };
 		540D821B25DE39A5007E254A /* IAmRichEmptySolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540D820925DE3957007E254A /* IAmRichEmptySolution.swift */; };
 		540D821C25DE39A5007E254A /* IAmRichSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540D820625DE3920007E254A /* IAmRichSolution.swift */; };
+		549B4BC825EAD02B00C8DA19 /* FortBoyardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549B4BC725EAD02B00C8DA19 /* FortBoyardTests.swift */; };
+		549B4BD025EAD04000C8DA19 /* FortBoyardSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540CCAD625EAA69000A663B9 /* FortBoyardSolution.swift */; };
+		549B4BD725EAD04400C8DA19 /* FortBoyardEmptySolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540CCADA25EAC63100A663B9 /* FortBoyardEmptySolution.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		540CCAD625EAA69000A663B9 /* FortBoyardSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortBoyardSolution.swift; sourceTree = "<group>"; };
+		540CCADA25EAC63100A663B9 /* FortBoyardEmptySolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortBoyardEmptySolution.swift; sourceTree = "<group>"; };
 		540D81FA25DE38D9007E254A /* Tasks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tasks; sourceTree = BUILT_PRODUCTS_DIR; };
 		540D81FD25DE38D9007E254A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		540D820625DE3920007E254A /* IAmRichSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAmRichSolution.swift; sourceTree = "<group>"; };
@@ -35,6 +42,9 @@
 		540D821125DE3997007E254A /* IAmRichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IAmRichTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		540D821325DE3997007E254A /* IAmRichTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAmRichTests.swift; sourceTree = "<group>"; };
 		540D821525DE3997007E254A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549B4BC525EAD02B00C8DA19 /* FortBoyardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortBoyardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		549B4BC725EAD02B00C8DA19 /* FortBoyardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortBoyardTests.swift; sourceTree = "<group>"; };
+		549B4BC925EAD02B00C8DA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,14 +62,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		549B4BC225EAD02B00C8DA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		540CCAD525EAA67600A663B9 /* FortBoyard */ = {
+			isa = PBXGroup;
+			children = (
+				540CCAD625EAA69000A663B9 /* FortBoyardSolution.swift */,
+				540CCADA25EAC63100A663B9 /* FortBoyardEmptySolution.swift */,
+			);
+			path = FortBoyard;
+			sourceTree = "<group>";
+		};
 		540D81F125DE38D9007E254A = {
 			isa = PBXGroup;
 			children = (
 				540D81FC25DE38D9007E254A /* Tasks */,
 				540D821225DE3997007E254A /* IAmRichTests */,
+				549B4BC625EAD02B00C8DA19 /* FortBoyardTests */,
 				540D81FB25DE38D9007E254A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +96,7 @@
 			children = (
 				540D81FA25DE38D9007E254A /* Tasks */,
 				540D821125DE3997007E254A /* IAmRichTests.xctest */,
+				549B4BC525EAD02B00C8DA19 /* FortBoyardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +104,7 @@
 		540D81FC25DE38D9007E254A /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
+				540CCAD525EAA67600A663B9 /* FortBoyard */,
 				540D820525DE38FC007E254A /* IamRich */,
 				540D81FD25DE38D9007E254A /* main.swift */,
 			);
@@ -98,6 +127,15 @@
 				540D821525DE3997007E254A /* Info.plist */,
 			);
 			path = IAmRichTests;
+			sourceTree = "<group>";
+		};
+		549B4BC625EAD02B00C8DA19 /* FortBoyardTests */ = {
+			isa = PBXGroup;
+			children = (
+				549B4BC725EAD02B00C8DA19 /* FortBoyardTests.swift */,
+				549B4BC925EAD02B00C8DA19 /* Info.plist */,
+			);
+			path = FortBoyardTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +175,23 @@
 			productReference = 540D821125DE3997007E254A /* IAmRichTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		549B4BC425EAD02B00C8DA19 /* FortBoyardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549B4BCA25EAD02B00C8DA19 /* Build configuration list for PBXNativeTarget "FortBoyardTests" */;
+			buildPhases = (
+				549B4BC125EAD02B00C8DA19 /* Sources */,
+				549B4BC225EAD02B00C8DA19 /* Frameworks */,
+				549B4BC325EAD02B00C8DA19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortBoyardTests;
+			productName = FortBoyardTests;
+			productReference = 549B4BC525EAD02B00C8DA19 /* FortBoyardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,6 +205,9 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					540D821025DE3997007E254A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					549B4BC425EAD02B00C8DA19 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -169,12 +227,20 @@
 			targets = (
 				540D81F925DE38D9007E254A /* Tasks */,
 				540D821025DE3997007E254A /* IAmRichTests */,
+				549B4BC425EAD02B00C8DA19 /* FortBoyardTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		540D820F25DE3997007E254A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549B4BC325EAD02B00C8DA19 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -188,7 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				540CCADB25EAC63100A663B9 /* FortBoyardEmptySolution.swift in Sources */,
 				540D820725DE3920007E254A /* IAmRichSolution.swift in Sources */,
+				540CCAD725EAA69000A663B9 /* FortBoyardSolution.swift in Sources */,
 				540D820A25DE3957007E254A /* IAmRichEmptySolution.swift in Sources */,
 				540D81FE25DE38D9007E254A /* main.swift in Sources */,
 			);
@@ -201,6 +269,16 @@
 				540D821B25DE39A5007E254A /* IAmRichEmptySolution.swift in Sources */,
 				540D821C25DE39A5007E254A /* IAmRichSolution.swift in Sources */,
 				540D821425DE3997007E254A /* IAmRichTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549B4BC125EAD02B00C8DA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549B4BD025EAD04000C8DA19 /* FortBoyardSolution.swift in Sources */,
+				549B4BD725EAD04400C8DA19 /* FortBoyardEmptySolution.swift in Sources */,
+				549B4BC825EAD02B00C8DA19 /* FortBoyardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +458,42 @@
 			};
 			name = Release;
 		};
+		549B4BCB25EAD02B00C8DA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HPV9E52JPX;
+				INFOPLIST_FILE = FortBoyardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nail.FortBoyardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		549B4BCC25EAD02B00C8DA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HPV9E52JPX;
+				INFOPLIST_FILE = FortBoyardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nail.FortBoyardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -406,6 +520,15 @@
 			buildConfigurations = (
 				540D821725DE3997007E254A /* Debug */,
 				540D821825DE3997007E254A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		549B4BCA25EAD02B00C8DA19 /* Build configuration list for PBXNativeTarget "FortBoyardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549B4BCB25EAD02B00C8DA19 /* Debug */,
+				549B4BCC25EAD02B00C8DA19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
