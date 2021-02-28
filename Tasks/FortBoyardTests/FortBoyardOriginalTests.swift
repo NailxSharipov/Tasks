@@ -1,15 +1,15 @@
 //
-//  FortBoyardTests.swift
-//  FortBoyardTests
+//  FortBoyardOriginalTests.swift
+//  FortBoyardOriginalTests
 //
 //  Created by Nail Sharipov on 28.02.2021.
 //
 
 import XCTest
 
-class FortBoyardTests: XCTestCase {
+class FortBoyardOriginalTests: XCTestCase {
 
-    private let solution: FortBoyardOriginalSolution = FortBoyardEmptySolution()
+    private let solution: FortBoyardOriginalSolution = Solver()
 
     func test00() throws {
         XCTAssertEqual(solution.nextMove(count: 0), nil)

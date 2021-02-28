@@ -1,0 +1,11 @@
+framework module FortBoyardCommon {
+  umbrella header "FortBoyardCommon.h"
+
+  export *
+  module * { export * }
+}
+
+module FortBoyardCommon.Swift {
+    header "FortBoyardCommon-Swift.h"
+    requires objc
+}

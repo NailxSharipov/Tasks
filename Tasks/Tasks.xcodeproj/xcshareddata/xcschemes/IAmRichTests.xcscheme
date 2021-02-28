@@ -22,6 +22,16 @@
                ReferencedContainer = "container:Tasks.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "549B4BC425EAD02B00C8DA19"
+               BuildableName = "FortBoyardTests.xctest"
+               BlueprintName = "FortBoyardTests"
+               ReferencedContainer = "container:Tasks.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

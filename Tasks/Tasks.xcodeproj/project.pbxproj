@@ -15,9 +15,15 @@
 		540D821425DE3997007E254A /* IAmRichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540D821325DE3997007E254A /* IAmRichTests.swift */; };
 		540D821B25DE39A5007E254A /* IAmRichEmptySolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540D820925DE3957007E254A /* IAmRichEmptySolution.swift */; };
 		540D821C25DE39A5007E254A /* IAmRichSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540D820625DE3920007E254A /* IAmRichSolution.swift */; };
-		549B4BC825EAD02B00C8DA19 /* FortBoyardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549B4BC725EAD02B00C8DA19 /* FortBoyardTests.swift */; };
+		54852D9B25EB858C00ABD5E4 /* FortBoyardCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54852D9525EB857C00ABD5E4 /* FortBoyardCommon.framework */; };
+		54852DA625EBC38100ABD5E4 /* FortBoyardCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54852D9525EB857C00ABD5E4 /* FortBoyardCommon.framework */; };
+		54852DA725EBC38100ABD5E4 /* FortBoyardCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 54852D9525EB857C00ABD5E4 /* FortBoyardCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		54852DAB25EBCD0C00ABD5E4 /* Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54852DAA25EBCD0C00ABD5E4 /* Solver.swift */; };
+		54852DAE25EBCD2600ABD5E4 /* Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54852DAA25EBCD0C00ABD5E4 /* Solver.swift */; };
+		549B4BC825EAD02B00C8DA19 /* FortBoyardOriginalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549B4BC725EAD02B00C8DA19 /* FortBoyardOriginalTests.swift */; };
 		549B4BD025EAD04000C8DA19 /* FortBoyardSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540CCAD625EAA69000A663B9 /* FortBoyardSolution.swift */; };
 		549B4BD725EAD04400C8DA19 /* FortBoyardEmptySolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540CCADA25EAC63100A663B9 /* FortBoyardEmptySolution.swift */; };
+		549B4BDF25EAD0FD00C8DA19 /* FortBoyardCommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549B4BDE25EAD0FD00C8DA19 /* FortBoyardCommonTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +35,17 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		54852D9825EB857C00ABD5E4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				54852DA725EBC38100ABD5E4 /* FortBoyardCommon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -42,9 +59,12 @@
 		540D821125DE3997007E254A /* IAmRichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IAmRichTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		540D821325DE3997007E254A /* IAmRichTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAmRichTests.swift; sourceTree = "<group>"; };
 		540D821525DE3997007E254A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54852D9525EB857C00ABD5E4 /* FortBoyardCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FortBoyardCommon.framework; sourceTree = "<group>"; };
+		54852DAA25EBCD0C00ABD5E4 /* Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solver.swift; sourceTree = "<group>"; };
 		549B4BC525EAD02B00C8DA19 /* FortBoyardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortBoyardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		549B4BC725EAD02B00C8DA19 /* FortBoyardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortBoyardTests.swift; sourceTree = "<group>"; };
+		549B4BC725EAD02B00C8DA19 /* FortBoyardOriginalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortBoyardOriginalTests.swift; sourceTree = "<group>"; };
 		549B4BC925EAD02B00C8DA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549B4BDE25EAD0FD00C8DA19 /* FortBoyardCommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortBoyardCommonTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54852DA625EBC38100ABD5E4 /* FortBoyardCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54852D9B25EB858C00ABD5E4 /* FortBoyardCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +99,7 @@
 			children = (
 				540CCAD625EAA69000A663B9 /* FortBoyardSolution.swift */,
 				540CCADA25EAC63100A663B9 /* FortBoyardEmptySolution.swift */,
+				54852DAA25EBCD0C00ABD5E4 /* Solver.swift */,
 			);
 			path = FortBoyard;
 			sourceTree = "<group>";
@@ -88,6 +111,7 @@
 				540D821225DE3997007E254A /* IAmRichTests */,
 				549B4BC625EAD02B00C8DA19 /* FortBoyardTests */,
 				540D81FB25DE38D9007E254A /* Products */,
+				54852D9425EB857C00ABD5E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,11 +153,20 @@
 			path = IAmRichTests;
 			sourceTree = "<group>";
 		};
+		54852D9425EB857C00ABD5E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54852D9525EB857C00ABD5E4 /* FortBoyardCommon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		549B4BC625EAD02B00C8DA19 /* FortBoyardTests */ = {
 			isa = PBXGroup;
 			children = (
-				549B4BC725EAD02B00C8DA19 /* FortBoyardTests.swift */,
+				549B4BC725EAD02B00C8DA19 /* FortBoyardOriginalTests.swift */,
 				549B4BC925EAD02B00C8DA19 /* Info.plist */,
+				549B4BDE25EAD0FD00C8DA19 /* FortBoyardCommonTests.swift */,
 			);
 			path = FortBoyardTests;
 			sourceTree = "<group>";
@@ -148,6 +181,7 @@
 				540D81F625DE38D9007E254A /* Sources */,
 				540D81F725DE38D9007E254A /* Frameworks */,
 				540D81F825DE38D9007E254A /* CopyFiles */,
+				54852D9825EB857C00ABD5E4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +290,7 @@
 			files = (
 				540CCADB25EAC63100A663B9 /* FortBoyardEmptySolution.swift in Sources */,
 				540D820725DE3920007E254A /* IAmRichSolution.swift in Sources */,
+				54852DAB25EBCD0C00ABD5E4 /* Solver.swift in Sources */,
 				540CCAD725EAA69000A663B9 /* FortBoyardSolution.swift in Sources */,
 				540D820A25DE3957007E254A /* IAmRichEmptySolution.swift in Sources */,
 				540D81FE25DE38D9007E254A /* main.swift in Sources */,
@@ -276,9 +311,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54852DAE25EBCD2600ABD5E4 /* Solver.swift in Sources */,
 				549B4BD025EAD04000C8DA19 /* FortBoyardSolution.swift in Sources */,
 				549B4BD725EAD04400C8DA19 /* FortBoyardEmptySolution.swift in Sources */,
-				549B4BC825EAD02B00C8DA19 /* FortBoyardTests.swift in Sources */,
+				549B4BDF25EAD0FD00C8DA19 /* FortBoyardCommonTests.swift in Sources */,
+				549B4BC825EAD02B00C8DA19 /* FortBoyardOriginalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +443,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HPV9E52JPX;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -417,6 +458,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HPV9E52JPX;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -464,6 +509,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HPV9E52JPX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FortBoyardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -482,6 +531,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HPV9E52JPX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FortBoyardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
