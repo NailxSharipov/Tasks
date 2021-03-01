@@ -12,7 +12,7 @@ class FortBoyardOriginalTests: XCTestCase {
     private let solution: FortBoyardOriginalSolution = Solver()
 
     func test00() throws {
-        XCTAssertEqual(solution.nextMove(count: 0), nil)
+        XCTAssertEqual(solution.nextMove(count: 0), 0)
     }
     
     func test01() throws {
